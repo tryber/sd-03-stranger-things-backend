@@ -1,0 +1,7 @@
+apps:
+  - name: cardosolucas1-hawkins-back
+    script: ./index.js
+    exec_mode: cluster
+    instances: 2
+    max_memory_restart: 200M
+    watch: false
