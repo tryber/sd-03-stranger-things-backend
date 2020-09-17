@@ -1,5 +1,5 @@
-apps:
-    script: ./index.js
+ apps:
+  - script: ./index.js
     name: api-upside-down
     instances: 2
     exec_mode: cluster
