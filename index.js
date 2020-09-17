@@ -29,6 +29,8 @@ app.get('/', (req, res) => {
   res.status(200).json(characters);
 });
 
+const { log } = console;
+
 app.listen(PORT, () => {
-  console.log(`Escutando na porta ${PORT}`);
+  log(`Escutando na porta ${PORT}`);
 });
