@@ -4,4 +4,4 @@ apps:
   script: ./index.js
   exec_mode: cluster
   instances: 2
-  exp_backoff_restart_delay: 200M
+  max_memory_restart: 200
