@@ -1,1 +1,1 @@
-web: pm2 start ecosystem.config.yml --watch
+web: pm2-runtime start ecosystem.config.yml --watch
