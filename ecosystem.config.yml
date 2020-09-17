@@ -1,0 +1,7 @@
+apps:
+  - name: pseudosafe
+    script: ./index.js
+    watch: false
+    max_memory_restart: 200M
+    exec_mode: cluster
+    instances: 2
