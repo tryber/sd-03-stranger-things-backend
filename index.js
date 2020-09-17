@@ -10,6 +10,7 @@ const app = express();
 const strangerThingsRepository = new StrangerThingsRepository(
   strangerThingsDataset,
 );
+
 const strangerThingsService = new StrangerThingsService(
   strangerThingsRepository,
 );
