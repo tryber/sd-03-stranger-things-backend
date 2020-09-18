@@ -1,3 +1,4 @@
+// Passando nos testes locais rumo aos 100%
 const express = require('express');
 const cors = require('cors');
 require('dotenv').config();
