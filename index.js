@@ -16,7 +16,7 @@ const strangerThingsService = new StrangerThingsService(
 
 app.use(cors());
 
-const { PORT = 3000, UPSIDEDOWN_MODE = false } = process.env;
+
 
 const hereIsTheUpsideDown = UPSIDEDOWN_MODE;
 
@@ -29,6 +29,8 @@ app.get('/', (req, res) => {
   res.status(200).json(characters);
 });
 
+// Código do Hebertão: ;
+const { PORT = 3000, UPSIDEDOWN_MODE = false } = process.env;
 app.listen(PORT, () => {
   console.log(`Escutando na porta ${PORT}`);
 });
