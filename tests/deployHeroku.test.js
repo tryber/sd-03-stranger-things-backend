@@ -20,6 +20,7 @@ describe('Verifica o Deploy no Heroku', () => {
       .then((response) => {
         const { body } = response;
         JSON.parse(body).forEach((character) => {
+          console.log(character)
           expect(data).toContainEqual(character);
         });
       });
