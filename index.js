@@ -30,7 +30,6 @@ app.get('/', (req, res) => {
 
   res.status(200).json(characters);
 });
-
 app.listen(PORT, () => {
   console.log(`Escutando a porta ${PORT}`);
 });
