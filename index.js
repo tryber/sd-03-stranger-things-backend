@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-require('dotenv').config();
+// require('dotenv').config();
 
 const PORT = process.env.PORT || 3000;
 const UPSIDE_DOWN = process.env.UPSIDEDOWN_MODE || false;
