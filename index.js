@@ -20,7 +20,7 @@ const strangerThingsService = new StrangerThingsService(
 
 app.use(cors());
 
-const hereIsTheUpsideDown = UPSIDE_DOWN === true;
+const hereIsTheUpsideDown = UPSIDE_DOWN === 'true';
 
 app.get('/', (req, res) => {
   const characters = strangerThingsService.search(
