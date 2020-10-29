@@ -3,7 +3,7 @@ const cors = require('cors');
 require('dotenv').config();
 
 const PORT = process.env.PORT || 3000;
-const UPSIDE_DOWN = process.env.UPSIDEDOWN_MODE;
+const UPSIDE_DOWN = process.env.UPSIDEDOWN_MODE || false;
 
 const strangerThingsDataset = require('./data/dataset/stranger-things-characters.json');
 const StrangerThingsRepository = require('./data/repository/StrangerThings');
