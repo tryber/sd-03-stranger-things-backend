@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "start": "pm2-runtime start ecosystem.config.yml",
     "start:dev": "pm2 start index.js --watch",
